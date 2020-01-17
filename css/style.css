@@ -1,0 +1,161 @@
+
+.titulo{
+    color: tomato;
+    font-size: 60px;
+    text-align: center;
+    border: solid salmon;
+}
+
+.titulo:hover{
+    color: teal;
+}
+
+.nav{
+    text-align: center;
+    background-color: thistle;
+    color: violet;
+}
+
+.menu:hover{
+    color: forestgreen;
+}
+
+body{
+    background-image: url(../img/320986.jpg);
+    }
+
+section{
+    text-align: justify;
+    width: 50%;
+    /* height: 30%; */
+    float: left;
+    margin: auto;
+}
+
+section:hover{
+    background-color: grey;
+}
+
+#imgurl{
+    margin: 0 auto;
+    display: block;  /*bloquear este espacio para que sea exclusivo de la imagen */
+    border: 10px ridge burlywood;
+}
+
+#subtitulo{
+    background-color: burlywood;
+    color: greenyellow;
+    text-align: left;
+    font-size: 40px;
+}
+
+.parrafo{
+    text-align: justify;
+    color: blue;
+}
+
+.parrafo:hover{
+    color: yellowgreen;
+}
+
+ol{
+    color:blue;
+    padding: 100px; /*para que se separe del contenido de abajo*/
+     /* list-style: decimal-leading-zero; */
+    /* list-style-type: georgian; */
+}
+
+ol:hover{
+    color: tomato;
+}
+
+ul{
+    color: cornflowerblue;
+
+}
+
+ul:hover{
+    color: springgreen;
+}
+
+a{
+    margin: 40px;
+}
+
+aside{
+    float: right;
+    font-size: 15px;
+    width: 40%;
+    height: 60%;
+    color: crimson;
+    text-align: center;
+    text-decoration: blueviolet;
+    margin-right: auto;
+}
+
+footer{
+    background-color: thistle;
+    color: violet;
+    clear: both;
+}
+
+iframe{
+    width: 620px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 50px;
+    border: solid royalblue;
+}
+
+
+#localv{
+    width: 30%;
+    height: 40%;
+     margin: 0 auto;
+    display: block;
+    border: solid crimson; 
+}
+
+table{
+    border: sienna;
+    width: 50%;
+    margin: auto;
+    border-style: groove;
+}
+
+th,td, tr{
+    border: groove tomato;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+
+caption{
+    text-align: left;
+    padding: 15px;
+}
+
+audio{
+    display: block;
+}
+
+#isummer,#iwinter,#ispring{
+width: 120px;
+height: 120px;
+display: block; 
+padding: 60 px;
+margin: 0 auto;
+
+}
+
+label{
+    color: thistle;
+    margin: 30px;
+}
+
+input{
+    margin: 20px;
+}
